@@ -33,6 +33,7 @@ nav a:hover {
 }
 
 main {
+    max-width: 1600px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -85,7 +86,12 @@ h3 {
 }
 
 #flag {
+    width: 90%;
+    height: auto;
     grid-column: 1/2;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 li {
@@ -95,7 +101,6 @@ li {
 
 li a {
     text-decoration: none;
-    font-style: none;
 }
 
 footer {
@@ -107,6 +112,7 @@ footer {
 footer p {
     margin: 0;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 /* #second {
