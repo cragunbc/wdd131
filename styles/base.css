@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    font-family: Merriweather;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: solid black 3px;
+    margin: 10px;
+    /* padding: 0 20px 20px 20px; */
+    border-radius: 20px;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+#first-first {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+}
+
+#first-second {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+}
+
+#myphoto {
+    width: 40%;
+    height: auto;
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#flag {
+    grid-column: 1/2;
+}
+
+li {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+li a {
+    text-decoration: none;
+    font-style: none;
+}
+
+/* #second {
+    text-align: center;
+}
+
+#second a {
+    padding: 20px;
+} */

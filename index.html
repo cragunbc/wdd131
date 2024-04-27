@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Brantley Cragun</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta name="description" content="Brantley Cragun - WDD 131 - Dynamic Web Fundamentals homepage">
 </head>
 <body>
-    
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Brantley Cragun</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/brantley-c">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng&id=p12#p12">Scripture</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div id="first-first">
+            <p>My name is Brantley Cragun and I'm from Utah. I've grown up in Syracuse, Utah for most of my life. Currently I'm a customer
+                support representative for a security company, but I'm slowly being put in more and more technical projects within
+                the company. I love everything realted to sports and the Utah Jazz. I'm currently going to school studying Software
+                Development.
+            </p>
+            <img id="myphoto" src="images/myphoto.jpg" alt="Photo of me">
+            </div>
+            <h3>Syracuse, UT</h3>
+            <div id="first-second">
+            <img id="flag" src="images/utahflag.png" alt="Utah Flag">
+            <p>Syracuse Utah is a town located in Davis County in Northern Utah roughly 30 miles north of Salt Lake City. The population in the city
+                has grown rapidly since 1990 and is one of the largest cities in the county. The newly developed West Davis Corridor goes through
+                the middle of the city connecting Legacy Highway with I-15.
+            </p>
+            </div>
+        </section>
+        <section id="second" class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://www.codecademy.com/">Code Academy</a></li>
+                <li><a href="https://www.codepen.io/">Code Pen</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
