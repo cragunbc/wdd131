@@ -28,8 +28,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white;
-    color: black;
+    color: yellow;
+    text-decoration: underline;
 }
 
 main {
@@ -43,7 +43,7 @@ h2 {
     align-items: center;
     background-color: lightblue;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
     border: solid black 3px;
     margin: 10px;
     /* padding: 0 20px 20px 20px; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .card p {
@@ -96,6 +96,17 @@ li {
 li a {
     text-decoration: none;
     font-style: none;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
 }
 
 /* #second {
