@@ -1,4 +1,17 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
+    body {
+        width: 100%;
+    }
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    body {
+        width: 100%;
+    }
 
     header {
         display: flex;
@@ -26,3 +39,4 @@
     }
 
 }
+

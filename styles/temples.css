@@ -5,6 +5,7 @@ body {
 
 h1 {
     margin: 0;
+    display: inline;
 }
 
 header, footer, footer p {
@@ -13,7 +14,7 @@ header, footer, footer p {
 }
 
 header {
-    display: flex;
+    display: grid;
     padding: 25px;
 }
 
@@ -36,9 +37,11 @@ header {
     display: flex;
     flex-direction: column;
     list-style: none;
+    max-width: 100%;
 }
 
 .navigation a {
+    font-size: 1.5rem;
     display: none;
     padding: 1rem;
     text-align: center;
@@ -66,7 +69,7 @@ main div {
     justify-content: space-between;
 } */
 
-nav a:hover {
+.navigation a:hover {
     color: red;
     text-decoration: underline;
 }
