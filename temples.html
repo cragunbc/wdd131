@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link href="styles/temples.css" rel="stylesheet">
     <link href="styles/temples-large.css" rel="stylesheet">
     <script src="scripts/temples.js" defer></script>
@@ -13,7 +16,8 @@
 <body>
     <header>
         <h1>Temple Album</h1>
-        <nav>
+        <button id="menu"></button>
+        <nav class="navigation">
             <a>Home</a>
             <a>Old</a>
             <a>New</a>
@@ -22,6 +26,8 @@
         </nav>
     </header>
     <main>
+        <h2>Home</h2>
+        <div>
         <figure>
             <img src="images/syracuse_temple.jpg">
             <figcaption>Syracuse, Utah Temple</figcaption>
@@ -58,6 +64,7 @@
             <img src="images/syracuse_temple.jpg">
             <figcaption>Syracuse, Utah Temple</figcaption>
         </figure>
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
