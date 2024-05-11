@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px) {
+    
+    #weather-icon {
+        display: none;
+    }
+
+    #wide-weather {
+        display: inline;
+    }
+
+    #data {
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
+        background-color: lightgray;
+    }
+
+    #weather {
+        position: absolute;
+        top: 17rem;
+        right: 2rem;
+        background-color: lightgray;
+    }
+
+}

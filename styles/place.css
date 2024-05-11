@@ -1,3 +1,14 @@
+body {
+    font-family: Merriweather;
+}
+
+header, footer {
+    background-color: royalblue;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 #small {
     grid-template-columns: 1fr;
 }
@@ -15,8 +26,19 @@ h1 {
     text-align: center;
 }
 
-.weather-icon {
-    width: 20%;
+#wide-weather {
+    display: none;
+}
+
+#weather-icon {
+    width: 100px;
+    height: auto;
+}
+
+.card {
+    padding: 20px;
+    border: solid black 3px;
+    margin: 10px;
 }
 
 footer {
