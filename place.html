@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="styles/temples.css" rel="stylesheet">
-    <link href="styles/temples-large.css" rel="stylesheet">
-    <script src="scripts/temples.js" defer></script>
+    <link href="styles/place.css" rel="stylesheet">
+    <link href="styles/place-large.css" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Syracuse, UT</h1>
+        <h1>Utah</h1>
     </header>
-    <main>
-
+    <div class="hero">
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+            <img src="images/hero-small.webp" alt="Utah Outdoors" width="500" height="250">
+        </picture>
+    </div>
+    <main id="small">
+        <section id="data" class="card">
+            <h2>Data</h2>
+            <p><strong>Area: </strong>84,899 sq mi</p>
+            <p><strong>Population: </strong>3,381,000</p>
+            <p><strong>Capital: </strong>Salt Lake City</p>
+            <p><strong>Languages: </strong>English</p>
+            <p><strong>Currency: </strong>USD</p>
+            <p><strong>Time Zone: </strong>GMT-6</p>
+            <p><strong>Calling Code: </strong>+801, +385, +435</p>
+        </section>
+        <section id="weather" class="card">
+            <h2>Weather</h2>
+            <img id="weather-icon" src="images/sunny.svg" alt="Sunny Weather">
+            <p><strong>Temperature: </strong>50&deg;F</p>
+            <p><strong>Conditions: </strong>Sunny</p>
+            <p><strong>Wind: </strong>5 mph</p>
+            <p><strong>Wind Chill: </strong><span id="windChill"></span>&deg;F</p>
+        </section>
     </main>
     <footer>
-
+        <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
