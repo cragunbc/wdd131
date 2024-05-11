@@ -1,5 +1,9 @@
 @media screen and (min-width: 1000px) {
     
+    :root {
+        --lightgray: #d3d3d3;
+    }
+
     #weather-icon {
         display: none;
     }
@@ -8,18 +12,22 @@
         display: inline;
     }
 
+    #wide-weather::after {
+        width: 120px;
+    }
+
     #data {
         position: absolute;
         top: 7rem;
         left: 2rem;
-        background-color: lightgray;
+        background-color: var(--lightgray);
     }
 
     #weather {
         position: absolute;
         top: 17rem;
         right: 2rem;
-        background-color: lightgray;
+        background-color: var(--lightgray);
     }
 
 }

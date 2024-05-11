@@ -1,10 +1,14 @@
+:root {
+    --blue: #000080;
+}
+
 body {
     font-family: Merriweather;
 }
 
 header, footer {
-    background-color: royalblue;
-    color: black;
+    background-color: var(--blue);
+    color: white;
     margin: 0 auto;
     padding: 10px;
 }
