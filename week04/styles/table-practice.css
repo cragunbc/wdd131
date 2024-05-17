@@ -1,0 +1,22 @@
+thead {
+    text-align: center;
+}
+
+table {
+    width: 400px;
+    border: 1px solid black;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}

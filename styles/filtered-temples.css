@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Merriweather;
+}
+
+h1 {
+    margin: 0;
+    display: inline;
+}
+
+header, footer, footer p {
+    margin: 0;
+    background-color: lightblue;
+}
+
+header {
+    display: grid;
+    padding: 25px;
+}
+
+#menu {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "🟰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    max-width: 100%;
+}
+
+.navigation a {
+    color: black;
+    font-size: 1.5rem;
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.open a {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+main div {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* header nav {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navigation a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
