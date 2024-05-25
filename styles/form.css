@@ -1,8 +1,30 @@
-.reviewPage
-/* footer */
-{
-    max-width: 500px;
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+main,
+footer {
+    font-family: Merriweather;
+}
+
+h1 {
+    grid-column: 1/4;
+}
+
+.reviewPage
+{
+    text-align: left;
+    grid-column: 2/3;
+    max-width: 500px;
+    background-color: lightblue;
+    padding: 40px 60px 40px 40px;
+}
+
+/* .requiredAtts {
+    color: red;
+} */
 
 input.radioBtn {
     justify-content: center;
@@ -16,9 +38,14 @@ input.radioBtn {
     align-items: center;
 }
 
+#features input {
+    margin-right: 10px;
+}
+
 #review label {
     display: flex;
     flex-direction: column;
+    font-size: .9rem;
 }
 
 .reviewPage input[type="radio"],
@@ -31,7 +58,8 @@ textarea
     border-radius: 6px;
     padding: .5rem;
     width: 100%;
-    /* max-width: 450px; */
+    max-width: 500px;
+    margin-top: 10px;
 }
 
 .reviewPage select {
@@ -40,11 +68,17 @@ textarea
 
 textarea {
     display: block;
+    width: 100%;
+    height: 200px;
 }
 
 #features label {
     display: block;
     padding-top: 10px;
+}
+
+.reviewPage input:required {
+    border-left: solid 8px red;
 }
 
 #written,
@@ -54,14 +88,23 @@ textarea {
 #features
 {
     padding-top: 20px;
+    max-width: 450px;
 }
 
 #submitBtn {
-    /* margin-top: 20px; */
-    width: 96%;
+    width: 90%;
     padding: .8rem;
     font-size: 1.25rem;
-    /* margin: -1rem 2% 2rem 2%; */
+    align-items: center;
+    text-align: center;
+    margin: 2rem 7% 1rem 7%;
+    /* background-image: linear-gradient(#9c2c13, #6f200e); */
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    grid-column: 2/3;
 }
 
 footer {
