@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+header, footer {
+    background-color: lightblue;
+    margin: 0;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin: 0;
+    padding: 25px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
