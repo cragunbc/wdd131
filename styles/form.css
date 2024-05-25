@@ -46,6 +46,7 @@ input.radioBtn {
     display: flex;
     flex-direction: column;
     font-size: .9rem;
+    margin-top: 10px;
 }
 
 .reviewPage input[type="radio"],
