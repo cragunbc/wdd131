@@ -1,0 +1,69 @@
+.reviewPage
+/* footer */
+{
+    max-width: 500px;
+}
+
+input.radioBtn {
+    justify-content: center;
+    margin: 0;
+}
+
+#review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#review label {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewPage input[type="radio"],
+.reviewPage input[type="text"],
+.reviewPage input[type="date"],
+#productName,
+textarea
+{
+    display: block;
+    border-radius: 6px;
+    padding: .5rem;
+    width: 100%;
+    /* max-width: 450px; */
+}
+
+.reviewPage select {
+    display: block;
+}
+
+textarea {
+    display: block;
+}
+
+#features label {
+    display: block;
+    padding-top: 10px;
+}
+
+#written,
+#name,
+#date,
+#rating,
+#features
+{
+    padding-top: 20px;
+}
+
+#submitBtn {
+    /* margin-top: 20px; */
+    width: 96%;
+    padding: .8rem;
+    font-size: 1.25rem;
+    /* margin: -1rem 2% 2rem 2%; */
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts/form.js" defer></script>
+    <link href="styles/form.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice Activity</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta name="description" content="Brantley Cragun - Temple Album Assignment">
+</head>
+<body>
+    <main>
+        <h1>Product Review</h1>
+        <form method="get" action="review.html" class="reviewPage">
+            <div>
+                <label>Product Name
+                    <select id="productName" name="product" required>
+                        <option disabled selected value="">Select a Product...</option>
+                    </select>
+                </label>
+            </div>
+            <div id="rating">
+                <label>Overall Rating</label>
+                <div id="review">
+                    <label>⭐<input class="radioBtn" type="radio" name="review" value="oneStar"></label required>
+                    <label>⭐⭐<input class="radioBtn" type="radio" name="review" value="twoStar"></label required>
+                    <label>⭐⭐⭐<input class="radioBtn" type="radio" name="review" value="threeStar"></label required>
+                    <label>⭐⭐⭐⭐<input class="radioBtn" type="radio" name="review" value="fourStar"></label required>
+                    <label>⭐⭐⭐⭐⭐<input class="radioBtn" type="radio" name="review" value="fiveStar"></label required>
+                </div>
+            </div>
+            <div id="date">
+                <label>Date of Installation<input type="date" name="installationDate"></label>
+            </div>
+            <div id="features">
+                <label>Which features did you find useful in the product?</label>
+                <label><input type="checkbox" name="durability" value="yes">Durabillity</label>
+                <label><input type="checkbox" name="use" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+            </div>
+            <div id="written">
+                <label>Written Review</label>
+                <textarea id="writtenReview" name="review"></textarea>
+            </div>
+            <div id="name">
+                <label>Your Name</label>
+                <input id="userName" type="text" name="name">
+            </div>
+            <input id="submitBtn" type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
