@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="styles/large.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <script src="scripts/responsive-menu.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -14,19 +15,41 @@
 </head>
 <body>
     <header>
-        <!-- <img id="logo" src="images/pickleball.webp" alt="logo"> -->
         <h1>Wasatch Front Pickleball Club</h1>
-        <nav>
+        <button id="menu"></button>
+        <nav class="navigation">
             <a href="index.html">Home</a>
-            <a href="clubs.html">Clubs/FAQ's</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="faq.html">FAQ's</a>
             <a href="rules.html">Rules</a>
         </nav>
     </header>
+    <div class="hero-img">
+        <div class="joinBtn"><a href="clubs.html">Join a Club!</a></div>
+        <picture>
+            <source srcset="images/hero-img-small.webp" media="(max-width: 400px)">
+            <img id="photo" src="images/hero-img-large.webp" alt="Pickball Court" loading="lazy">
+        </picture>
+    </div>
     <main>
-
+        <section id="equip" class="card">
+            <h2>Need Equipment?</h2>
+            <p>Pickleball is an exciting new sport that's sweeping the nation bay all age groups! Join the fun!<br><br><strong>See below for recommended paddles!</strong></p>
+            <div id="equipBtn"><a href="https://www.pickleheads.com/pickleball-gear/pickleball-paddles">Recommended Equipment!</a></div>
+        </section>
+        <section id="questions" class="card">
+            <h2>Got Questions?</h2>
+            <p>Our forum has answer to many questions that you may have as you start this exciting sport!<br><br><strong>View our forum or submit a question!</strong></p>
+            <div id="questionsBtn"><a href="faq.html">FAQ's</a></div>
+        </section>
+        <section id="rules" class="card">
+            <h2>Know How to Play?</h2>
+            <p>Like any sport pickleball can be complicated in the beginning.<br><br><strong>Learn the rules of pickleball by clicking below!</strong></p>
+            <div id="rulesBtn"><a href="rules.html">Rules!</a></div>
+        </section>
     </main>
     <footer>
-
+        <p>Brantley Cragun - WDD 131 Final Project</p>
     </footer>
 </body>
 </html>

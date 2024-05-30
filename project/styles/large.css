@@ -1,0 +1,37 @@
+@media screen and (min-width: 950px) {
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        justify-content: space-around;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #equip {
+        grid-column: 1/2;
+    }
+
+    #questions {
+        grid-column: 2/3;
+    }
+
+    #rules {
+        grid-column: 3/4;
+    }
+}
