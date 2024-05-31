@@ -4,12 +4,13 @@
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/large.css" rel="stylesheet">
     <script src="scripts/responsive-menu.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals Final Project - Brantley Cragun</title>
+    <title>WDD 131 - Dynamic Web Fundamentals Final Project - Home Page - Brantley Cragun</title>
     <meta name="author" content="Brantley Cragun">
     <meta name="description" content="Brantley Cragun - WDD 131 - Project Homepage">
 </head>
@@ -31,7 +32,12 @@
             <img id="photo" src="images/hero-img-large.webp" alt="Pickball Court" loading="lazy">
         </picture>
     </div>
-    <main>
+    <main id="mainPage">
+        <section id="clubs" class="card">
+            <h2>Clubs</h2>
+            <p>Looking to get involved in your local area? There's many people that love to play and there's many clubs that play consistantly!<br><br><strong>See below for some clubs that meet!</strong></p>
+            <div id="clubBtn"><a href="clubs.html">Local Clubs!</a></div>
+        </section>
         <section id="equip" class="card">
             <h2>Need Equipment?</h2>
             <p>Pickleball is an exciting new sport that's sweeping the nation bay all age groups! Join the fun!<br><br><strong>See below for recommended paddles!</strong></p>
@@ -44,12 +50,13 @@
         </section>
         <section id="rules" class="card">
             <h2>Know How to Play?</h2>
-            <p>Like any sport pickleball can be complicated in the beginning.<br><br><strong>Learn the rules of pickleball by clicking below!</strong></p>
+            <p>Like any sport there are rules to follow. Pickleball can be complicated in the beginning, so learn the rules!<br><br><strong>Learn the rules of pickleball by clicking below!</strong></p>
             <div id="rulesBtn"><a href="rules.html">Rules!</a></div>
         </section>
     </main>
     <footer>
-        <p>Brantley Cragun - WDD 131 Final Project</p>
+        <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
+        <p id="lastModified"></p> 
     </footer>
 </body>
 </html>

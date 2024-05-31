@@ -41,10 +41,11 @@ h1 {
     flex-direction: column;
     max-width: 100%;
     list-style: none;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .navigation a {
@@ -69,6 +70,8 @@ h1 {
 .open a:hover {
     text-decoration: underline;
 }
+
+/* Main Page CSS */
 
 .hero-img {
     display: flex;
@@ -122,13 +125,15 @@ h2 {
 
 #questions p,
 #equip p,
-#rules p {
+#rules p,
+#clubs p {
     text-align: center;
 }
 
 #questionsBtn,
 #equipBtn,
-#rulesBtn {
+#rulesBtn,
+#clubBtn {
     align-items: center;
     text-align: center;
     background-color: lightgray;
@@ -137,14 +142,16 @@ h2 {
 
 #questionsBtn a,
 #equipBtn a,
-#rulesBtn a {
+#rulesBtn a,
+#clubBtn a {
     text-decoration: none;
     color: black;
 }
 
 #questionsBtn a:hover,
 #equipBtn a:hover,
-#rulesBtn a:hover {
+#rulesBtn a:hover,
+#clubBtn a:hover {
     text-decoration: underline;
 }
 
@@ -153,10 +160,85 @@ footer {
     margin: 0;
     background-color: lightblue;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 footer p {
     margin: 0;
-    padding: 20px;
+    padding: 10px;
+}
+
+
+/* FAQ Page CSS */
+
+#faqPage h2 {
+    padding: 15px;
+}
+
+.faqCard {
+    background-color: white;
+    border: solid 4px black;
+    padding: 15px;
+    margin: 10px;
+}
+
+.faqCard h3, p {
+    text-align: center;
+}
+
+.faqReview {
+    /* max-width: 450px; */
+    align-items: center;
+}
+
+fieldset {
+    margin: 15px;
+}
+
+#personalInfo input[type="text"],
+#personalInfo input[type="tel"],
+#personalInfo input[type="email"]
+{
+    display: block;
+    border-radius: 6px;
+    padding: .5rem;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 10px;
+}
+
+#personalInfo label {
+    padding-top: 15px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+#submitBtn {
+    width: 93%;
+    padding: .8rem;
+    font-size: 1.25rem;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 3% 1rem 4%;
+    color: black;
+}
+
+#faqPhoto{
+    /* padding-top: 40px; */
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+
+/* Rules Page CSS */
+
+#rulesPage {
+    padding: 30px;
 }

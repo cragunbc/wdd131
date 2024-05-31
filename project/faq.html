@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <script src="scripts/responsive-menu.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals Final Project - FAQ Page - Brantley Cragun</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta name="description" content="Brantley Cragun - WDD 131 - Project Homepage">
+</head>
+<body>
+    <header>
+        <h1>Wasatch Front Pickleball Club</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="faq.html">FAQ's</a>
+            <a href="rules.html">Rules</a>
+        </nav>
+    </header>
+    <main id="faqPage">
+        <h2>FAQ's</h2>
+        <section class="faqCard">
+            <h3>What clubs are available in my area?</h3>
+            <p>View our page about local clubs!</p>
+        </section>
+        <section class="faqCard">
+            <h3>How often to people play?</h3>
+            <p>Most people play multiple times a week but based on availability some people can only play once or twice a week. Really just depends on people schedules!</p>
+        </section>
+        <section class="faqCard">
+            <h3>Where are the local courts?</h3>
+            <ul>
+                <li><strong>Syracuse:</strong> Founders Park</li>
+                <li><strong>Layton:</strong> Ellison Park</li>
+                <li><strong>Clinton:</strong> Steed Park</li>
+                <li><strong>Farmington:</strong> Farmington Park</li>
+                <li><strong>Kaysville:</strong> Barnes Park</li>
+            </ul>
+        </section>
+        <section class="faqCard">
+            <h3>Can you get hurt playing pickleball?</h3>
+            <p>Like any sport you can get hurt. Pickleball is no different; just make sure the stretch and not to play harder then you are physically able to and you should be fine. Make sure to have fun!</p>
+        </section>
+        <h2>Submit a Question!</h2>
+        <form method="get" action="" class="faqReview">
+            <div>
+                <fieldset id="personalInfo">
+                    <legend>Questionare</legend>
+                    <label>First Name <input id="firstName" type="text" name="fname" required></label>
+                    <label>Last Name <input id="lastName" type="text" name="lname" required></label>
+                    <label>Phone Number <input id="phone" type="tel" name="phoneNumber" required></label>
+                    <label>Email <input id="email" type="email" name="emailAddress" required></label>
+                    <label>Question</label>
+                    <textarea id="question" name="question"></textarea>
+                </fieldset>
+                <input id="submitBtn" type="submit" value="Submit Question">
+            </div>
+        </form>
+        <div id="faqPhoto"><img src="images/faq-photo.webp" loading="lazy"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Brantley Cragun | USA</p>
+        <p id="lastModified"></p> 
+    </footer>
+</body>
+</html>
