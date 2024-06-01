@@ -56,4 +56,12 @@
     #faqPhoto {
         padding-top: 120px;
     }
+
+    #faqPhoto{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        /* margin: 20px; */
+}
 }

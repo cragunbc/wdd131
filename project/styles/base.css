@@ -204,11 +204,16 @@ fieldset {
     padding: .5rem;
     width: 100%;
     max-width: 350px;
-    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #personalInfo label {
-    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.formLabel {
+    margin-top: 20px;
+
 }
 
 textarea {
@@ -227,13 +232,25 @@ textarea {
     color: black;
 }
 
-#faqPhoto{
-    /* padding-top: 40px; */
+/* #faqPhoto{
     text-align: center;
     align-items: center;
     width: 100%;
     height: auto;
     margin: 20px;
+} */
+
+#faqphoto {
+    margin: 20px;
+}
+
+#faqPhoto img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+    max-width: 700px;
 }
 
 
@@ -241,4 +258,11 @@ textarea {
 
 #rulesPage {
     padding: 30px;
+}
+
+
+/* FAQ Submit Page */
+
+#reviewPage, #questions {
+    text-align: center;
 }

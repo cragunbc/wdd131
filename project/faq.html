@@ -20,7 +20,7 @@
         <button id="menu"></button>
         <nav class="navigation">
             <a href="index.html">Home</a>
-            <a href="clubs.html">Clubs</a>
+            <a href="clubs.html">Leagues</a>
             <a href="faq.html">FAQ's</a>
             <a href="rules.html">Rules</a>
         </nav>
@@ -50,15 +50,15 @@
             <p>Like any sport you can get hurt. Pickleball is no different; just make sure the stretch and not to play harder then you are physically able to and you should be fine. Make sure to have fun!</p>
         </section>
         <h2>Submit a Question!</h2>
-        <form method="get" action="" class="faqReview">
+        <form method="get" action="faqSubmit.html" class="faqReview">
             <div>
                 <fieldset id="personalInfo">
                     <legend>Questionare</legend>
-                    <label>First Name <input id="firstName" type="text" name="fname" required></label>
-                    <label>Last Name <input id="lastName" type="text" name="lname" required></label>
-                    <label>Phone Number <input id="phone" type="tel" name="phoneNumber" required></label>
-                    <label>Email <input id="email" type="email" name="emailAddress" required></label>
-                    <label>Question</label>
+                    <label class="formLabel">First Name - *Required*<input id="firstName" type="text" name="fname" required></label>
+                    <label class="formLabel">Last Name - *Required*<input id="lastName" type="text" name="lname" required></label>
+                    <label class="formLabel">Phone Number - *Required*<input id="phone" type="tel" name="phoneNumber" required></label>
+                    <label class="formLabel">Email - *Required*<input id="email" type="email" name="emailAddress" required></label>
+                    <label class="formLabel">Question - *Required*</label>
                     <textarea id="question" name="question"></textarea>
                 </fieldset>
                 <input id="submitBtn" type="submit" value="Submit Question">
