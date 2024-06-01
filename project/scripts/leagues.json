@@ -10,31 +10,31 @@
             "city": "Farmington",
             "club": "Farmington Pickleball League",
             "location": "Farmington Gymnasium",
-            "cost": 32
+            "cost": "32"
         },
         {
             "city": "Clinton",
             "club": "Heritage Days Pickleball Tournament",
             "location": "Meadows Park",
-            "cost": 30
+            "cost": "30"
         },
         {
             "city": "Layton",
             "club": "Layton Pickleball League",
             "location": "Layton Parks and Rec",
-            "cost": 35
+            "cost": "35"
         },
         {
             "city": "Clearfield",
             "club": "Clearfield Pickleball Tournament",
             "location": "Clearfield Parks and Rec",
-            "cost": 20
+            "cost": "20"
         },
         {
             "city": "Kaysville",
             "club": "Kaysville Pickleball League",
             "location": "Barnes Park",
-            "cost": 20
+            "cost": "20"
         }
     ]
 }
