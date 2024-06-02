@@ -63,5 +63,12 @@
         width: 100%;
         height: auto;
         /* margin: 20px; */
-}
+
+
+    }
+    
+    /* Club Page CSS */
+    /* #clubPage {
+        grid-template-columns: 1fr 1fr;            
+    } */
 }
